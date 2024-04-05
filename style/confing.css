@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+body{
+    background: #F5F5F5;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 630px;
+}
+.d-none {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear, max-height 0.5s linear;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    max-height: max-content; 
+    transition: visibility 0s linear 0s, opacity 0.5s linear, max-height 0.5s linear;
+}
